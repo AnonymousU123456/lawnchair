@@ -83,6 +83,7 @@ public class RestoreDbTask {
 
     public static final String APPWIDGET_OLD_IDS = "appwidget_old_ids";
     public static final String APPWIDGET_IDS = "appwidget_ids";
+    public static final String FIRST_LOAD_AFTER_RESTORE_KEY = "first_load_after_restore";
 
     private static final String[] DB_COLUMNS_TO_LOG = { "profileId", "title", "itemType", "screen",
             "container", "cellX", "cellY", "spanX", "spanY", "intent" };
